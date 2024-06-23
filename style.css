@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    margin: 5rem 8rem;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .links {
+    display: flex;
+    gap: 3rem;
+}
+
+.header .links a {
+    color: hsl(236, 13%, 42%);
+    transition: 0.3s all ease;
+}
+
+.header .links a:hover {
+    color: hsl(5, 85%, 63%);
+}
+
+.top-landing {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-between;
+    grid-template-columns: 64% 33%;
+    margin: 3rem 0 5rem 0;
+}
+
+.top-landing .left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.top-landing .left-side img {
+    width: 100%;
+}
+
+.top-landing .left-side .future-web {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-landing .left-side .future-web h1 {
+    font-size: 52px;
+    font-weight: 800;
+}
+
+.top-landing .left-side .future-web .read-more {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.top-landing .left-side .future-web .read-more p {
+    color: hsl(236, 13%, 42%);
+    line-height: 1.7rem;
+}
+
+.top-landing .left-side .future-web .read-more button {
+    color: black;
+    background: hsl(5, 85%, 63%);
+    outline: none;
+    border: none;
+    padding: 1rem 1rem;
+    width: 47%;
+    font-weight: 800;
+    letter-spacing: 4px;
+    font-size: 14px;
+    margin-top: 1.5rem;
+    transition: 0.3s all ease;
+    cursor: pointer;
+}
+
+.top-landing .left-side .future-web .read-more button:hover {
+    color: white;
+    background: hsl(240, 100%, 5%);
+}
+
+.top-landing .right-side {
+    background: hsl(240, 100%, 5%);
+    padding: 2rem;
+}
+
+.top-landing .right-side .new {
+    color: hsl(35, 77%, 62%);
+    margin-bottom: 2.5rem;
+}
+
+.top-landing .right-side .section-one,
+.top-landing .right-side .section-two {
+    border-bottom: 1px solid hsl(233, 8%, 79%);
+    margin-bottom: 2rem;
+}
+
+.top-landing .right-side .section-one h3,
+.top-landing .right-side .section-two h3,
+.top-landing .right-side .section-three h3 {
+    color: white;
+    margin-bottom: 0.8rem;
+    cursor: pointer;
+    transition: 0.3s all ease;
+}
+
+.top-landing .right-side .section-one h3:hover,
+.top-landing .right-side .section-two h3:hover,
+.top-landing .right-side .section-three h3:hover {
+    color: hsl(35, 77%, 62%);
+}
+
+.top-landing .right-side .section-one p,
+.top-landing .right-side .section-two p {
+    color: hsl(233, 8%, 79%);
+    line-height: 30px;
+    padding-bottom: 1.5rem;
+}
+
+.top-landing .right-side .section-three p {
+    color: hsl(233, 8%, 79%);
+    line-height: 30px;
+}
+
+.bottom-landing {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bottom-landing img {
+    width: 120px;
+    height: 130px;
+}
+
+.bottom-landing .one,
+.bottom-landing .two,
+.bottom-landing .three {
+    display: flex;
+    gap: 1.5rem;
+    width: 33%;
+}
+
+.bottom-landing .one .info,
+.bottom-landing .two .info,
+.bottom-landing .three .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bottom-landing .one .info .title,
+.bottom-landing .two .info .title,
+.bottom-landing .three .info .title {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.bottom-landing .one .info .title h1,
+.bottom-landing .two .info .title h1,
+.bottom-landing .three .info .title h1 {
+    color: hsl(5, 85%, 63%);
+}
+
+.bottom-landing .one .info .title h3,
+.bottom-landing .two .info .title h3,
+.bottom-landing .three .info .title h3 {
+    cursor: pointer;
+    transition: 0.3s all ease;
+}
+
+.bottom-landing .one .info .title h3:hover,
+.bottom-landing .two .info .title h3:hover,
+.bottom-landing .three .info .title h3:hover {
+    color: hsl(5, 85%, 63%);
+}
+
+.bottom-landing .one .info p,
+.bottom-landing .two .info p,
+.bottom-landing .three .info p {
+    color: hsl(236, 13%, 42%);
+}
